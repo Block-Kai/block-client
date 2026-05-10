@@ -1,0 +1,23 @@
+# Gradle
+.gradle/
+build/
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+*~
+
+# Minecraft
+run/

@@ -1,0 +1,27 @@
+{
+    "schemaVersion": 1,
+    "id": "blockclient",
+    "version": "${version}",
+    "name": "Block-Client",
+    "description": "A Minecraft Fabric client-side utility mod for anarchy servers like 2b2t.",
+    "authors": ["BlockClient"],
+    "contact": {},
+    "license": "MIT",
+    "environment": "client",
+    "entrypoints": {
+        "client": ["com.blockclient.BlockClientMod"]
+    },
+    "mixins": ["blockclient.mixins.json"],
+    "depends": {
+        "fabricloader": ">=0.16.9",
+        "fabric-api": "*",
+        "minecraft": "1.21.11"
+    },
+    "custom": {
+        "modmenu": {
+            "links": {
+                "modmenu.github_releases": "https://github.com/example/block-client"
+            }
+        }
+    }
+}
